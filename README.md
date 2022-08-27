@@ -33,3 +33,14 @@ It should look like this at [localhost:8000](localhost:8000)
 python manage.py startapp playground
 ```
 It will add `playground` in the directory.
+
+
+### 5. django-debug-toolbar
+
+[Reference](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html)
+
+On `no such table: django_session` error run :
+```
+python manage.py makemigrations
+python manage.py migrate
+```
